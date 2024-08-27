@@ -1,4 +1,6 @@
-import Sortable, { type Options, type SortableEvent } from 'sortablejs'
+import { Sortable, Swap } from 'sortablejs/modular/sortable.core.esm'
+import { type Options, type SortableEvent } from 'sortablejs'
+
 import {
   getCurrentInstance,
   isRef,
@@ -28,6 +30,8 @@ import {
   removeElement,
   removeNode
 } from './utils'
+
+Sortable.mount(new Swap())
 
 function defaultClone<T>(element: T): T {
   if (element === undefined || element === null) return element
