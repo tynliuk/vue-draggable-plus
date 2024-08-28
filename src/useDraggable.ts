@@ -1,5 +1,4 @@
-import { Sortable, Swap } from 'sortablejs/modular/sortable.core.esm'
-import { type Options, type SortableEvent } from 'sortablejs'
+import Sortable, { Swap, type Options, type SortableEvent } from 'sortablejs'
 
 import {
   getCurrentInstance,
