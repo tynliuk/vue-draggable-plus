@@ -9,7 +9,7 @@
   "homepage": "https://vue-draggable-plus.pages.dev/en/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Alfred-Skyblue/vue-draggable-plus"
+    "url": "https://github.com/tynliuk/vue-draggable-plus"
   },
   "type": "module",
   "types": "./dist/index.d.ts",
